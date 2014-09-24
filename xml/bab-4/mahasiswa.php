@@ -2,7 +2,7 @@
 
 //1.koneksi database
 $konek = mysql_connect("127.0.0.1","root","") or die(mysql_error());
-$db = mysql_select_db("module_sit");
+$db = mysql_select_db("mahasiswa");
 
 if ($konek) {
   echo "Berhasil Koneksi ke database. <br/>";
